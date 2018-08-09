@@ -3,7 +3,7 @@ require "spring/commands/shoryuken/version"
 module Spring
   module Commands
     class Shoryuken
-      def env
+      def env(*_)
         "development"
       end
 

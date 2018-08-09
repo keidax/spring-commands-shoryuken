@@ -1,6 +1,6 @@
 module Spring
   module Commands
-    module Shoryuken
+    class Shoryuken
       VERSION = "0.1.0"
     end
   end
