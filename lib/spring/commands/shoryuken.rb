@@ -1,5 +1,11 @@
 require "spring/commands/shoryuken/version"
 
+# We have to define Shoryuken::CLI so that Shoryuken.configure_server blocks
+# will run during preloading.
+module Shoryuken
+  module CLI; end
+end
+
 module Spring
   module Commands
     class Shoryuken
